@@ -8,7 +8,7 @@
 #include <openssl/sha.h>
 #include <gcrypt.h>
 #include "decrypt-tls-utils.h"
-#include <stdbool.h>
+
 
 
 #define EARLY_SECRET_SIZE 32

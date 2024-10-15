@@ -3,6 +3,7 @@
 #include <gcrypt.h>
 #include <stdio.h>
 #include <stdint.h>
+#include <stdbool.h>
 // #include "ssl.h"
 
 //<-------------------------- 字段定义 -------------------------->
@@ -121,9 +122,9 @@
 typedef unsigned char guchar;
 typedef unsigned char guint8;
 typedef unsigned int guint;
-typedef UINT64 guint64;
-typedef UINT32 guint32;
-typedef UINT16 guint16;
+typedef uint64_t guint64;
+typedef uint32_t guint32;
+typedef uint16_t guint16;
 typedef bool gboolean;
 //<-------------------------- 变量枚举 -------------------------->
 typedef enum {
